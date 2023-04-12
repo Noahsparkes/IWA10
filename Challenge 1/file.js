@@ -91,13 +91,13 @@ const lastHolidayTimestamp = Math.max(
     holidays[8].date.getTime(),
 );
 
-const firstDay = firstHolidayTimestamp.getDate
-const firstMonth = firstHolidayTimestamp.getMonth
-const lastDay = lastHolidayTimestamp.getDate
-const lastMonth = lastHolidayTimestamp.getMonth
+const firstDay = firstHolidayTimestamp.getDate();
+const firstMonth = firstHolidayTimestamp.getMonth();
+const lastDay = lastHolidayTimestamp.getDate();
+const lastMonth = lastHolidayTimestamp.getMonth();
 
-console.log('{firstDay}/{firstMonth}/{currentYear}')
-console.log('{lastDay}/{lastMonth}/{currentYear}')
+console.log(`${firstDay}/${firstMonth}/${currentYear}`)
+console.log(`${lastDay}/${lastMonth}/${currentYear}`)
 
 const randomHoliday = holidays[Math.random]
 console.log(randomHoliday.date)
